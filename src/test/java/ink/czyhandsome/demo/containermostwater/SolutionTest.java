@@ -19,5 +19,6 @@ class SolutionTest {
     @Test
     void maxArea() {
         assertEquals(49, m(1, 8, 6, 2, 5, 4, 8, 3, 7));
+        assertEquals(2, m(2, 5));
     }
 }
