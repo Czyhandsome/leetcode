@@ -1,5 +1,7 @@
 package ink.czyhandsome.demo.removenthnode;
 
+import ink.czyhandsome.utilities.ListNode;
+
 /**
  * Remove Nth Node From End of List
  *

@@ -1,6 +1,9 @@
 package ink.czyhandsome.demo.mergetwosortedlist;
 
 //@formatter:off
+
+import ink.czyhandsome.utilities.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {

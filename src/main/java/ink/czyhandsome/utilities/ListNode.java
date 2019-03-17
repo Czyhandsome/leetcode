@@ -1,4 +1,4 @@
-package ink.czyhandsome.demo.mergetwosortedlist;
+package ink.czyhandsome.utilities;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,8 +9,8 @@ import java.util.List;
  * @author 曹子钰, 2019-03-16
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
     public ListNode(int val) {
         this.val = val;

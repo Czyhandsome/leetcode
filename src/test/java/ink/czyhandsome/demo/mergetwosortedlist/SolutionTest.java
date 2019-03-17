@@ -1,5 +1,6 @@
 package ink.czyhandsome.demo.mergetwosortedlist;
 
+import ink.czyhandsome.utilities.ListNode;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
