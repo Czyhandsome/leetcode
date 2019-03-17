@@ -16,6 +16,21 @@ public class ListNode {
         this.val = val;
     }
 
+    public static ListNode of(int... nums) {
+        ListNode result = null;
+        ListNode point = null;
+        for (int num : nums) {
+            if (point == null) {
+                result = new ListNode(num);
+                point = result;
+            } else {
+                point.next = new ListNode(num);
+                point = point.next;
+            }
+        }
+        return result;
+    }
+
     public List<Integer> toList() {
         List<Integer> result = new LinkedList<>();
         ListNode head = this;
