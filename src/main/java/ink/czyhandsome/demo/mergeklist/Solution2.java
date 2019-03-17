@@ -7,9 +7,9 @@ import ink.czyhandsome.utilities.ListNode;
  *
  * @author zycao3, 2019/3/17
  */
-public class Solution2 {
+class Solution2 {
 
-    public ListNode mergeKLists(ListNode[] lists) {
+    ListNode mergeKLists(ListNode[] lists) {
         ListNode result = null;
         ListNode pointer = null;
         boolean finish;

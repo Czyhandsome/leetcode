@@ -6,7 +6,7 @@ import java.util.Arrays;
  * 3sum 最接近的值
  */
 class Solution {
-    public int threeSumClosest(int[] nums, int target) {
+    int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int result = nums[0] + nums[1] + nums[2];
         int delta = Math.abs(result - target);

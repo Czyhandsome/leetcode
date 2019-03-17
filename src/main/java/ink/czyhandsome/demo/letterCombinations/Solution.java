@@ -17,7 +17,7 @@ class Solution {
         put('9', "wxyz");
     }};
 
-    public List<String> letterCombinations(String digits) {
+    List<String> letterCombinations(String digits) {
         if (digits.isEmpty()) {
             return Collections.emptyList();
         }

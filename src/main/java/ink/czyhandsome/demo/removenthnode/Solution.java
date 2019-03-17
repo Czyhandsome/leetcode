@@ -7,9 +7,9 @@ import ink.czyhandsome.utilities.ListNode;
  *
  * @author 曹子钰, 2019-03-16
  */
-public class Solution {
+class Solution {
 
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    ListNode removeNthFromEnd(ListNode head, int n) {
         int d = 0;
         ListNode h = head;
         ListNode l = head;

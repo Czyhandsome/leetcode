@@ -7,7 +7,7 @@ package ink.czyhandsome.demo.regularexpressions;
  */
 public class Solution2 {
 
-    public boolean isMatch(String s, String p) {
+    private boolean isMatch(String s, String p) {
         Boolean[][] cache = new Boolean[s.length() + 1][p.length() + 1];
         return dp(s, p, 0, 0, cache);
     }

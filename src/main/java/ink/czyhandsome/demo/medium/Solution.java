@@ -7,7 +7,7 @@ package ink.czyhandsome.demo.medium;
  */
 public class Solution {
 
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums2.length < nums1.length) {
             return findMedianSortedArrays(nums2, nums1);
         }

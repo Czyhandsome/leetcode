@@ -6,7 +6,7 @@ package ink.czyhandsome.demo.inttoroman;
  * @author zycao3, 2019/2/12
  */
 class Solution {
-    public String intToRoman(int num) {
+    String intToRoman(int num) {
         int remain = num;
         int numI = remain % 10;
         remain = (remain - numI) / 10;

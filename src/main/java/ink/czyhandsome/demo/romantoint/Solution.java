@@ -6,7 +6,7 @@ package ink.czyhandsome.demo.romantoint;
  * @author 曹子钰, 2019-03-13
  */
 class Solution {
-    public int romanToInt(String s) {
+    int romanToInt(String s) {
         int num = 0;
         int i = 0;
         while (i < s.length()) {

@@ -4,7 +4,7 @@ package ink.czyhandsome.demo.longestcommonprefix;
  * 最长的共通前缀
  */
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
+    String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";
         }

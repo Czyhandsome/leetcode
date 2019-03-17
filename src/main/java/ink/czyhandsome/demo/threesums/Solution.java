@@ -9,7 +9,7 @@ import java.util.List;
  * 找到所有的不重复三元组, 且元素之和为0
  */
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
+    List<List<Integer>> threeSum(int[] nums) {
         if (nums.length < 3) {
             return Collections.emptyList();
         }

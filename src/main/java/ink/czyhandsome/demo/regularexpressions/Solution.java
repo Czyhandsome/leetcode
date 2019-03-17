@@ -6,7 +6,7 @@ package ink.czyhandsome.demo.regularexpressions;
  * @author zycao3, 2019/2/11
  */
 public class Solution {
-    public boolean isMatch(String s, String p) {
+    boolean isMatch(String s, String p) {
         // 检测空字符串的情况
         if (p.isEmpty()) {
             return s.isEmpty();

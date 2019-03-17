@@ -8,7 +8,7 @@ import java.util.List;
  * 4 sum
  */
 class Solution {
-    public List<List<Integer>> fourSum(int[] nums, int target) {
+    List<List<Integer>> fourSum(int[] nums, int target) {
         Arrays.sort(nums);
         List<List<Integer>> results = new LinkedList<>();
         for (int i = 0; i < nums.length - 3; i++) {

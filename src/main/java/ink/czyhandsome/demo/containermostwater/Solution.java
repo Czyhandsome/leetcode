@@ -6,7 +6,7 @@ package ink.czyhandsome.demo.containermostwater;
  * @author zycao3, 2019/2/11
  */
 public class Solution {
-    public int maxArea(int[] height) {
+    int maxArea(int[] height) {
         int p0 = 0;
         int p1 = height.length - 1;
         int result = area(height, p0, p1);
